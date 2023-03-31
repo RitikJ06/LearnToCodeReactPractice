@@ -1,0 +1,83 @@
+.formHeading{
+    padding: 20px;
+    background:#F00000;
+    width: 70%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+    border-radius: 5px;
+}
+
+.formSection{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.formDiv{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 70%;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+.inputField, #claimButton{
+    border: solid 1px #DADADA;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+.skillSelect{
+    color: #777777;
+}
+#claimButton{
+    background:#B5B5B5;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.46);
+    border-radius: 2px;
+    color: white;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.TCText{
+    text-align: center;
+    color: #C2C2C2;
+    font-size: 11px;
+}
+.TCText b{
+    color: #FF0000;
+}
+.skillsList{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -8px;
+}
+.skillItem{
+    display: inline-block;
+    background: #DCDCDC;
+    color: #777777;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 0px 5px 10px 5px;
+}
+.skillName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 10px;
+}
+.crossSign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 10px;
+    cursor: pointer;
+}
